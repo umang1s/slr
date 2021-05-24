@@ -15,9 +15,10 @@ Team 14
     */
 
 #include<stdio.h>
-#include<string.h>
 #include"slr.h"
 #include"file.h"
+
+
 
 
 int main(){
@@ -25,5 +26,11 @@ int main(){
     printf("------------------------SLR Parser-----------------------------\n");
     printf("---------------------------------------------------------------\n");
 
+    getInputFromFile();
+
+
+    printOutput();
+
+    writeOutPutInFile();
 
 }
