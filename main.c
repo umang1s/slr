@@ -3,7 +3,7 @@ Team 14
     Name    :   Umang Maurya
     Roll no :   055
 
-    Name    :   Amardeep Singh(Lata)
+    Name    :   Amardeep
     Roll no :   009
 
     Name    :   Yateesh Chandra
