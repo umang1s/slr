@@ -1,5 +1,2 @@
-E  -> TR
-R  -> +T R| #
-T  -> F Y
-Y  -> *F Y | #
-F  -> (E)|i
+E->T+E|T 
+T->id
