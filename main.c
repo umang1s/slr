@@ -99,21 +99,21 @@ int main(){
         states[0].prodCount[i]++;
     }
     terminal[count_terminal++]='$';
-    // seprateStates(0);
-    // for(int i=0; i<count_state+1; i++){
-    //     printf("I%d->\n",i);
-    //     printProduction(&states[i]);
-    // }
+    seprateStates(0);
+    for(int i=0; i<count_state+1; i++){
+        printf("I%d->\n",i);
+        printProduction(&states[i]);
+    }
 
-    // printf("Edges...\n");
-    // for(int i=0; i<count_edge; i++){
-    //     printf("\tI%d -> ",edges[i][0]);
-    //     printChar(edges[i][1]);
-    //     printf(" -> I%d\n",edges[i][2]);
-    // }
+    printf("Edges...\n");
+    for(int i=0; i<count_edge; i++){
+        printf("\tI%d -> ",edges[i][0]);
+        printChar(edges[i][1]);
+        printf(" -> I%d\n",edges[i][2]);
+    }
         
     
-    // printf("Parsing table ...\nState\t\taction\t\tgo_to\n\t");
+    printf("Parsing table ...\nState\t\taction\t\tgo_to\n\t");
 }
 
 /*********************************function defination*************************************/
