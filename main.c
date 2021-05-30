@@ -123,7 +123,6 @@ int main(){
 
 
 void moveDot(int x,int s,char val){
-
     int flag=0;
     char temp;
     int where=0;
