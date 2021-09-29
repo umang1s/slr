@@ -1,0 +1,83 @@
+E->BB
+B->cB
+B->d   
+
+Checking non terminals...
+Non Terminals           First           Follow
+        E               cd              $
+        B               cd              cd$
+
+
+//---------------------------------------------------------------
+
+E->E+T
+E->T
+T->T*F
+T->F
+F->id
+
+reading input...
+                E->E+T
+                E->T
+                T->T*F
+                T->F
+                F->id
+
+Checking non terminals...
+Non Terminals           First           Follow
+        E               id              $+
+        T               id              $+*
+        F               id              $+
+
+//-----------------------------------------------------------------------
+E->T+E
+E->T
+T->id
+
+Checking non terminals...
+Non Terminals           First           Follow
+        E               id              $
+        T               id              +$
+
+
+??--------------------------
+S->aBDh
+B->cC
+C->bC
+C->@
+D->EF
+E->g
+E->@
+F->f
+F->@
+
+//--------------------------
+ 
+S->Bb
+S->Cd
+B->aB 
+B->@
+C->cC
+C->@
+
+//----------------------
+
+E->TA
+A->+TA
+A->@
+T->FB
+B->*FB
+B->@
+F->id
+F->(E)
+
+Non Terminals           First           Follow
+        E               id(             $)
+        T               id(             +$)
+        A               +@              $)
+        F               id(             *$)
+        B               *@              +$)
+
+
+
+

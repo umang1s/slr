@@ -1,0 +1,45 @@
+
+I0 :
+        Z -> .S
+        S -> .E
+        E -> .E+T
+        E -> .T
+        E -> .F
+        T -> .T*F
+        F -> .id
+
+
+I1 :
+        Z -> S.
+
+I2 :
+        S -> E.
+        E -> E.+T
+
+I3 :
+        E -> T.
+        T -> T.*F
+
+I4 :
+        E -> F.
+
+I5 :
+        F -> i.d
+
+I6 :
+        E -> E+.T
+        T -> .T*F
+
+I7 :
+        T -> T*.F
+        F -> .id
+
+I8 :
+        F -> id.
+
+I9 :
+        E -> E+T.
+        T -> T.*F
+
+I10 :
+        T -> T*F.
